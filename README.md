@@ -5,7 +5,8 @@ sudo mount /dev/nvme0n1p1 /boot
 sudo mkdir -p /boot/EFI/Boot
 
 3: copy limine efi file there
-sudo cp /boot/EFI/limine/BOOTX64.EFI /boot/EFI/Boot/bootx64.efi
+sudo cp /boot/EFI/limine/BOOTX64.EFI /boot/EFI/Boot/bootx64.efi (stock arch)
+sudo cp /boot/EFI/limine/limine_x64.EFI /boot/EFI/Boot/bootx64.efi (cachyos)
 
 4: verify
 ls -l /boot/EFI/Boot/bootx64.efi
