@@ -51,6 +51,6 @@ ls -l /boot/EFI/Boot/bootx64.efi
 
 - **Other Cases:**  
   The MSI bootloader should automatically recognize your drive where Linux and Limine are installed.  
-  You don't need to manually navigate to the Limine bootloader folder or boot from its file!
+  You don't need to manually navigate to the Limine bootloader folder or boot from its file! Keep in mind that this can break Windows boot!
 
 ---
